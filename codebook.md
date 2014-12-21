@@ -14,24 +14,25 @@
 
 ### Key variable *`subject`*
 
-subject         :       *int*
-Description     :       Identifies the subject who performed the activity for each
-Levels          :       Range is from 1 to 30 representing each individual
-Sample          :       1 1 1 1 1 1 2 2 2 2 ...
+Class           :       *int*  
+Description     :       Identifies the subject who performed the activity for each  
+Levels          :       Range is from 1 to 30 representing each individual  
+Sample          :       1 1 1 1 1 1 2 2 2 2 ...  
+
 						  	 
-						  	
+
 ### Key variable *`activity`*
 
-activity        :       *Factor*
-Description     :       Name of the Activity performed while data was taken
-Levels          :       w/ 6 levels
-                        1 WALKING
-                        2 WALKING_UPSTAIRS
-                        3 WALKING_DOWNSTAIRS
-                        4 SITTING
-                        5 STANDING
-                        6 LAYING                        
-Sample          :       1 2 3 4 5 6 1 2 3 4 ...    
+Class           :       *Factor*  
+Description     :       Name of the Activity performed while data was taken  
+Levels          :       w/ 6 levels  
+                        1 WALKING  
+                        2 WALKING_UPSTAIRS  
+                        3 WALKING_DOWNSTAIRS  
+                        4 SITTING  
+                        5 STANDING  
+                        6 LAYING                          
+Sample          :       1 2 3 4 5 6 1 2 3 4 ...      
 
 
 ### Structure of file
